@@ -3,7 +3,7 @@
     <OutputPath>..\Assemblies</OutputPath>
     <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>PreferPreferredApparelColor</AssemblyTitle>
-    <AssemblyVersion>2024.0815.1</AssemblyVersion>
+    <AssemblyVersion>2025.0126.1</AssemblyVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <LangVersion>latest</LangVersion>
