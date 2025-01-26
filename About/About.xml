@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Prefer Preferred Apparel Color</name>
+    <author>llunak</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>llunak.PreferPreferredApparelColor</packageId>
+    <modDependencies>
+    <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+        <packageId>Ludeon.Rimworld.Ideology</packageId>
+        <displayName>Ideology</displayName>
+    </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+    </loadAfter>
+    <description>This mod makes pawns slightly prefer apparel of their favourite or ideo's color.
+
+While the game provides a little mood bonus for pawns wearing apparel of preferred color, there is no such preference when pawns select apparel to wear. This means that if apparel policy of pawns changes regularly, e.g. for summer/winter or for fight/peace, they will randomly mix up each other's apparel. This mod makes matching apparel to be slightly more likely to be selected, similarly to how the game treats apparel from human leather.
+
+Additionally, this mod provides related fixes:
+- Avoid rounding errors when counting the at least 60% criteria, which prevented having 3 out of 5 apparel items of the right color count as sufficient.
+- Ignore the extra apparel slot for research kits added by the Research Reinvented mod, if present. Kits cannot be colored, and the extra slot would change e.g. 3 out of 5 apparel items to be 3 out of 6.
+
+GitHub: https://github.com/llunak/rimworld-preferpreferredapparelcolor
+</description>
+</ModMetaData>
