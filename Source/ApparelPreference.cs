@@ -46,7 +46,7 @@ namespace PreferPreferredApparelColor
         {
             if( p.DevelopmentalStage.Baby())
                 return;
-            Color? favColor = p.story?.favoriteColor;
+            Color? favColor = p.story?.favoriteColor?.color;
             Color? ideoColor = p.Ideo?.ApparelColor;
             if( !favColor.HasValue && !ideoColor.HasValue )
                 return;
